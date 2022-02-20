@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/* main */
+main {
+    width: 80%;
+    position: absolute;
+    right: 0;
+}
+
+/* swiper */
+.mainSlide {
+    width: 100%;
+    height: 100%;
+    z-index: -9;
+    position: fixed;
+    top: 0;
+    left: 10%;
+
+}
+.mainSlide .swiper-slide {
+    background: no-repeat 100% / cover;
+}
+.mainSlide .img1 {
+    background-image: url("images/work01.jpg");
+}
+.mainSlide .img2 {
+    background-image: url("images/work02.jpg");
+}
+.mainSlide .img3 {
+    background-image: url("images/work03.jpg");
+}
+.mainSlide .img4 {
+    background-image: url("images/work04.jpg");
+}
+
+/* work */
+main .work {
+    margin-top: 100vh;
+    background-color: #fff;
+}
+main h1 {
+    font-size: 3.4vw;
+    border-top: #000 solid 1px;
+    border-bottom: #000 solid 1px;
+    margin: 0;
+    text-transform: uppercase;
+}
+main #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+main .work #gallery .box {
+    width: 26.63vw;
+    height: 26vw;
+    border-right: #000 solid 1px;
+    border-bottom: #000 solid 1px;
+}
+main .work #gallery .box:hover {
+    background-size: 170%;
+    transition: 0.3s;
+}
+main .work #gallery .box1 {
+    background: url("images/work01.jpg") no-repeat center / cover;
+    background-size: 150%;
+}
+main .work #gallery .box2 {
+    background: url("images/work02.jpg") no-repeat center / cover;
+    background-size: 150%;
+}
+main .work #gallery .box3 {
+    background: url("images/work03.jpg") no-repeat center / cover;
+    background-size: 150%;
+    border-right: none;
+}
+main .work #gallery .box4 {
+    background: url("images/work04.jpg") no-repeat center / cover;
+    background-size: 150%;
+}
+main .work #gallery .box5 {
+    background: url("images/work05.jpg") no-repeat center / cover;
+    background-size: 150%;
+}
+main .work #gallery .box6 {
+    background: url("images/work06.jpg") no-repeat center / cover;
+    background-size: 150%;
+    border-right: none;
+}
+
+/* bg */
+.bg_move {background: url(images/bg01.png) 100% / cover;}
+
+/* artist */
+main .artist {
+    background-color: #fff;
+    padding-top: 8vw;
+}
+main .artist #gallery .box {
+    width: 19.94vw;
+    height: 20vw;
+    border-right: #000 solid 1px;
+    border-bottom: #000 solid 1px;
+}
+main .artist #gallery .box:hover {
+    background-size: 120%;
+    transition: 0.3s;
+}
+main .artist #gallery .box1 {
+    background: url("images/artist01.jpg") no-repeat center 0 / cover;
+    background-size: 110%;
+}
+main .artist #gallery .box2 {
+    background: url("images/artist02.jpg") no-repeat center 0 / cover;
+    background-size: 110%;
+}
+main .artist #gallery .box3 {
+    background: url("images/artist03.jpg") no-repeat center 0 / cover;
+    background-size: 110%;
+}
+main .artist #gallery .box4 {
+    background: url("images/artist04.jpg") no-repeat center 0 / cover;
+    background-size: 110%;
+}
+main .artist #gallery .box5 {
+    background: url("images/artist05.jpg") no-repeat center 0 / cover;
+    background-size: 110%;
+}
+main .artist #gallery .box6 {
+    background: url("images/artist06.jpg") no-repeat center 0 / cover;
+    background-size: 110%;
+}
+main .artist #gallery .box7 {
+    background: url("images/artist07.jpg") no-repeat center 0 / cover;
+    background-size: 110%;
+}
+main .artist #gallery .box8 {
+    background: url("images/artist08.jpg") no-repeat center 0 / cover;
+    background-size: 110%;
+}
+footer {
+    background-color: #fff;
+}

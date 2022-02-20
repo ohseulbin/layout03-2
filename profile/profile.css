@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/* main */
+main {
+    width: 80%;
+    position: absolute;
+    right: 0;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4.35vw;
+    border-top: 1px solid #000;
+}
+
+main .sider {
+    width: 33%;
+    border-right: 1px solid #000;
+}
+main .sider .img {
+    width: 100%;
+    height: 30vw;
+    background: url("images/artist01.jpg") no-repeat 100% 0 / cover;
+    border-bottom: 1px solid #000;
+
+}
+main .sider span {
+    width: 16vw;
+    display: inline-block;
+    line-height: 1.8;
+    font-size: 1.1vw;
+    padding-left: 5vw;
+    padding-bottom: 5vw;
+
+}
+main .sider p {
+    font-size: 1.6vw;
+    font-weight: bold;
+    padding: 5vw 0 1.5vw 5vw;
+    margin: 0;
+}
+main .sider a:first-child {
+    border-right: 1px solid #000;
+    width: 20%;
+}
+main .sider a:last-child {
+    right: 0;
+    width: 80%;
+}
+main .sider .btn {
+    position: relative;
+    width: 100%;
+}
+main .sider a {
+    font-size: 1.2vw;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    padding: 2vw 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+main .sider a:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s;
+}
+
+main .container {
+    width: 66.9%;
+}
+main .container .video {
+    height: 30vw;
+    background-color: #ddd;
+    border-bottom: 1px solid #000;
+
+}
+.video iframe {
+    width: 100%;
+    height: 100%;
+}
+
+main .container .interview {
+    height: 60vw;
+    background: url("images/interview.jpg") no-repeat 100% / cover;
+    border-bottom: 1px solid #000;
+
+}
+main .container .work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main .container .work .box {
+    width: 50%;
+    height: 28vw;
+}
+main .container .work .box1 {
+    background: url("images/work01.jpg") no-repeat 100% / cover;
+}
+main .container .work .box2 {
+    background: url("images/work02.jpg") no-repeat 100% / cover;
+}
+main .container .work .box3 {
+    background: url("images/work03.jpg") no-repeat 100% / cover;
+}
+main .container .work .box4 {
+    background: url("images/work04.jpg") no-repeat 100% / cover;
+}

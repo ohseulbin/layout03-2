@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+header li:first-child {background-color: rgb(231, 255, 189);}
+
+/* main */
+main {
+    width: 80%;
+    position: absolute;
+    right: 0;
+    text-align: justify;
+}
+main span {
+    font-size: 1.3vw;
+    line-height: 1.8;
+}
+main .box1 {
+    background: url("images/img01.jpg") no-repeat 100% 0 / cover;
+    height: 38vw;
+    position: relative;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    margin-top: 4.35vw;
+}
+main .box1 span {
+    position: absolute;
+    width: 20vw;
+    right: 5vw;
+    bottom: 5vw;
+}
+
+main .box2 {
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+main .box2 .img {
+    width: 38vw;
+    height: 40vw;
+    background: url("images/img02.jpg") no-repeat 100% / cover;
+    border-right: 1px solid #000;
+}
+main .box2 span {
+    width: 32vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+
+main .box3 {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    border-bottom: 1px solid #000;
+}
+main .box3 .img {
+    width: 55vw;
+    height: 36vw;
+    margin-left: 5vw;
+    background: url("images/img03.jpg") no-repeat 100% 0 / cover;
+    border-left: 1px solid #000;
+}
+main .box3 span {
+    width: 15vw;
+    text-align: right;
+    position: absolute;
+    left: 5vw;
+    bottom: 5vw;
+}
+
+main .box4 {
+    width: 100%;
+    height: 40vw;
+    background: url("images/img04.jpg") no-repeat 100% / cover;
+}

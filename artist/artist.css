@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+header li:nth-child(3) {background-color: rgb(231, 255, 189);}
+
+/* main */
+main {
+    width: 80%;
+    position: absolute;
+    right: 0;
+}
+main span {
+    font-size: 2vw;
+}
+main h1 {
+    text-transform: uppercase;
+    font-size: 3.4vw;
+}
+main .artist {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.35vw;
+    text-align: left;
+}
+main a {
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+}
+main .box {
+    width: 19.94vw;
+    height: 24vw;
+    border-bottom: 1px solid #000;
+}
+main .box:hover {
+    background-size: 120%;
+    transition: 0.3s;
+}
+main .artist h2 {
+    font-size: 1.6vw;
+    margin: 0;
+    padding: 0;
+}
+main .artist p {
+    margin: 0;
+    margin-top: 0.5vw;
+}
+
+main .box1 {
+    background: url("images/artist01.jpg") no-repeat center 0 / cover;
+    background-size: 100%;
+}
+main .box2 {
+    background: url("images/artist02.jpg") no-repeat center 0 / cover;
+    background-size: 100%;
+}
+main .box3 {
+    background: url("images/artist03.jpg") no-repeat center 0 / cover;
+    background-size: 100%;
+}
+main .box4 {
+    background: url("images/artist04.jpg") no-repeat center 0 / cover;
+    background-size: 100%;
+}
+main .box5 {
+    background: url("images/artist05.jpg") no-repeat center 0 / cover;
+    background-size: 100%;
+}
+main .box6 {
+    background: url("images/artist06.jpg") no-repeat center 0 / cover;
+    background-size: 100%;
+}
+main .box7 {
+    background: url("images/artist07.jpg") no-repeat center 0 / cover;
+    background-size: 100%;
+}
+main .box8 {
+    background: url("images/artist08.jpg") no-repeat center 0 / cover;
+    background-size: 100%;
+}
